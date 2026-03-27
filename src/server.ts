@@ -4,7 +4,7 @@ import { google } from "googleapis";
 import z from "zod";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({ quiet: true });
 
 // Create MCP Server Instance
 const server = new McpServer({
